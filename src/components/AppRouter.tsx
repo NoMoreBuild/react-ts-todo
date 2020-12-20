@@ -1,15 +1,15 @@
-import React from 'react';
-import { HashRouter, Switch, Route } from 'react-router-dom';
-import Home from '../pages/Home'
+import React from "react";
+import { HashRouter, Switch, Route } from "react-router-dom";
+import Home from "../pages/Home";
 
 const AppRouter: React.FC = () => {
-  return(
+  return (
     <HashRouter>
       <Switch>
-        <Route path="/" exact component={Home}/>
+        <Route path="/" exact component={Home} />
       </Switch>
     </HashRouter>
-  )
-}
+  );
+};
 
-export default AppRouter
+export default AppRouter;
